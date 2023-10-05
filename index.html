@@ -4,92 +4,116 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
-    <title>ativ 1</title>
+    <title>Meu portal de notícias</title>
+    <link rel="stylesheet" href="./estilo.css" />
 </head>
 <body>
     <header>
-        <h1>Meu portal de noticias</h1>
-        <nav>
-            <ul class="formulario">
-            <li><a href="#" title="ir para esportes">Esportes</a></li>
-            <li><a href="#" title="ir para economia">Economia</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Meu portal de notícias</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#sports" title="Ir para a seção de esportes">Esportes</a>
+                    </li>
+                    <li>
+                        <a href="#economy" title="Ir para a seção de notícias">Economia</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <section>
-        <h2>Esportes</h2>
-        <h3>Futebol</h3>
-        <article>
-            <img src="images/jude.jpg" alt="foto do futebolista jude bellingham comemorando um gol">
-            <header>
-                <time>04/10/23 ás 10:45</time>
-            </header>
-            <h3>grande clássico hoje a noite</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni neque, quaerat suscipit sed ipsa unde odit consequuntur aut molestias impedit ex atque quis veniam obcaecati sequi molestiae dolores, tenetur nisi!</p>
-            <a href="#" title="leia a notícia completa">Ler mais</a>
-        </article>
+    
+    <section id="sports">
+        <div class="container">
+            <h2>Esportes</h2>
+            <div class="articles">
+                <article>
+                    <img src="./images/futebol.jpg" alt="Bola de futebol no gramado" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Grande clássico na noite de hoje</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./images/futebol-americano.jpg" alt="Jogador de futebol americano correndo com a bola na mão" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Noite do Superbowl</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./images/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Notícia sobre a NBA</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./images/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Notícia sobre a NBA</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
     </section>
-    <section>
-        <h3>Futebol Americano</h3>
-        <article>
-            <img src="images/chiefs.jpg" alt="foto de dois jogadores do kansas city chiefs, atual campeão do super bowl, Patrick Mahomes e Travis Kelce">
-            <header>
-                <time>04/10/23 ás 10:45</time>
-            </header>
-            <h3>Noite de Superbowl</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni neque, quaerat suscipit sed ipsa unde odit consequuntur aut molestias impedit ex atque quis veniam obcaecati sequi molestiae dolores, tenetur nisi!</p>
-            <a href="#" title="leia a notícia completa">Ler mais</a>
-        </article>
-    </section>
-    <section>
-        <h3>Basquete - NBA</h3>
-        <article>
-            <img src="images/nba.jpg" alt="compilado de estrela da NBA">
-            <header>
-                <time>04/10/23 ás 10:45</time>
-            </header>
-            <h3>Jogo da Temporada - Celtics vs Heat</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni neque, quaerat suscipit sed ipsa unde odit consequuntur aut molestias impedit ex atque quis veniam obcaecati sequi molestiae dolores, tenetur nisi!</p>
-            <a href="#" title="leia a notícia completa">Ler mais</a>
-        </article>
-    </section>
-    <section>
-        <h1>Economia</h1>
-        <h3>Investimento</h3>
-        <article>
-            <img src="" alt="">
-            <header>
-                <time>04/10/23 ás 10:45</time>
-            </header>
-            <h3>Bla Bla Bla taxa SELIC</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni neque, quaerat suscipit sed ipsa unde odit consequuntur aut molestias impedit ex atque quis veniam obcaecati sequi molestiae dolores, tenetur nisi!</p>
-            <a href="#" title="leia a notícia completa">Ler mais</a>
-        </article>
-    </section>
-    <section>
-        <h3>Banco central</h3>
-        <article>
-            <img src="" alt="">
-            <header>
-                <time>04/10/23 ás 10:45</time>
-            </header>
-            <h3>Banco central imprime mais moeda</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni neque, quaerat suscipit sed ipsa unde odit consequuntur aut molestias impedit ex atque quis veniam obcaecati sequi molestiae dolores, tenetur nisi!</p>
-            <a href="#" title="leia a notícia completa">Ler mais</a>
-        </article>
-    </section>
-    <section>
-        <h3>Elon Musk</h3>
-        <article>
-            <img src="" alt="">
-            <header>
-                <time>04/10/23 ás 10:45</time>
-            </header>
-            <h3>Elon Musk destrói o planeta</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni neque, quaerat suscipit sed ipsa unde odit consequuntur aut molestias impedit ex atque quis veniam obcaecati sequi molestiae dolores, tenetur nisi!</p>
-            <a href="#" title="leia a notícia completa">Ler mais</a>
-        </article>
+    <section id="economy">
+        <div class="container">
+            <h2>Economia</h2>
+            <div class="articles">
+                <article>
+                    <img src="./images/dolares.jpg" alt="Muitos dólares" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Dólar em alta de 0.50%</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./images/euro.jpg" alt="Várias notas de euro" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Euro em queda de 0.40%</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./images/petroleo.jpg" alt="Extração de petróleo" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Alta no preço do barril do petróleo</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
     </section>
 </body>
 </html>
