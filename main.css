@@ -1,0 +1,25 @@
+* {
+        margin: auto;
+        padding: auto;
+        box-sizing: border-box;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+form{
+    display: flex;
+    flex-direction: column; 
+    margin-top: 200px;
+}
+
+input{
+    padding: 8px;
+    width: 200px; 
+}
+
+button{
+    margin-top: 2px;
+    width: 200px;
+    padding: 6px;
+    background-color: rgb(56, 56, 255);
+    color: white;
+}
